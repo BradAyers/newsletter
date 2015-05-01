@@ -1,12 +1,17 @@
-.uploadForm {
-    width: 75%;
-    height: 500px; /* Remove after content added, which will define height dynamically */
-    margin: 0 auto;
-    background: gray;
-}
+/*.uploadForm {*/
+    /*width: 75%;*/
+    /*height: 500px; *//* Remove after content added, which will define height dynamically */
+    /*margin: 0 auto;*/
+    /*background: gray;*/
+/*}*/
 
 #signIn {
+    float: right;
+    display: inline-block;
+}
+
+#submit {
+    display: inline;
     border: solid 1px black;
     border-radius: 5px;
-    display: inline-block;
 }
