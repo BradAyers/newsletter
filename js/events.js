@@ -4,6 +4,9 @@ $( document ).ready(function() {
 
     $( "#submit" ).click(function() {
         console.log ( "Handler for .click() called." );
-        var password = 
+        var user = $("#userName").val();
+        var pw = $("#passWord").val();
+        console.log(user);
+        console.log(pw);
     });
 });
